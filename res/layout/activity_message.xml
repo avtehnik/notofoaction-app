@@ -1,0 +1,59 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:padding="@dimen/padding_medium"
+        android:textSize="32sp"
+        tools:context=".MssageActivity" />
+
+    <CheckBox
+        android:id="@+id/balkon_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/komnata_2"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="16dp"
+        android:text="@string/balkon1" />
+
+    <CheckBox
+        android:id="@+id/balkon_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/komnata_2"
+        android:layout_alignBottom="@+id/komnata_2"
+        android:layout_alignLeft="@+id/balkon_1"
+        android:text="@string/balkon2" />
+
+    <CheckBox
+        android:id="@+id/komnata_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/komnata_1"
+        android:text="@string/komnata2" />
+
+    <CheckBox
+        android:id="@+id/komnata_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/komnata1" />
+
+    <CheckBox
+        android:id="@+id/dor1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/komnata_2"
+        android:layout_marginTop="16dp"
+        android:text="@string/dor1" />
+
+</RelativeLayout>

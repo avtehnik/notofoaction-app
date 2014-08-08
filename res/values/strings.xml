@@ -1,0 +1,12 @@
+<resources>
+  <string name="app_name">GCM Sample Client</string>
+  <string name="unregistered">Unregistered</string>
+  <string name="registering">Registering</string>
+  <string name="gcm_registration">Got id from Google: %1$s</string>
+  <string name="server_registration">Sent id to server: %1$s</string>
+  <string name="balkon1">Балкон 1</string>
+  <string name="balkon2">Балкон 2</string>
+  <string name="komnata1">Комната 1</string>
+  <string name="komnata2">комната 2</string>
+  <string name="dor1">Вхідні двері</string>
+</resources>
